@@ -103,7 +103,6 @@
     .footer-links a{color:var(--text-muted);font-size:.85rem}.footer-links a:hover{color:var(--accent)}
     .footer-copy{font-size:.8rem;color:var(--text-muted);line-height:1.8}
     .footer-copy a{color:var(--text-secondary)}.footer-copy a:hover{color:var(--accent)}
-    .footer-copy+.footer-copy{margin-top:4px}
     /* Responsive */
     @media(max-width:900px){.stats{grid-template-columns:repeat(3,1fr)}.features-grid{grid-template-columns:repeat(2,1fr)}.nav-links{display:none}}
     @media(max-width:600px){.stats{grid-template-columns:repeat(2,1fr)}.features-grid{grid-template-columns:1fr}.hero{padding:120px 0 80px}section{padding:64px 0}}
@@ -119,9 +118,8 @@
     <div class="nav-logo">📊 <span>mu-excel-toolbox</span></div>
     <ul class="nav-links">
       <li><a href="#features" data-en="Features" data-zh="核心能力">Features</a></li>
-      <li><a href="#cleaning" data-en="Cleaning" data-zh="数据清洗">Cleaning</a></li>
-      <li><a href="#comparison" data-en="Compare" data-zh="竞品对比">Compare</a></li>
       <li><a href="#all-features" data-en="All 22" data-zh="全部功能">All 22</a></li>
+      <li><a href="#comparison" data-en="Compare" data-zh="竞品对比">Compare</a></li>
     </ul>
     <div class="nav-right">
       <div class="lang-switch" id="langSwitch">
@@ -197,55 +195,49 @@
   </div>
 </section>
 
-<!-- Data Cleaning -->
-<section id="cleaning" style="background:var(--bg-warm);">
+<!-- All 22 Features -->
+<section id="all-features" style="background:var(--bg-warm);">
   <div class="container">
-    <div class="section-header fade-up">
-      <span class="section-label" data-en="🧹 Data Cleaning" data-zh="🧹 数据清洗">🧹 Data Cleaning</span>
-      <h2 class="section-title" data-en="8 Rules, One Command 🧽" data-zh="8 大规则，一条命令 🧽">8 Rules, One Command 🧽</h2>
-      <p class="section-desc" data-en="The most common dirty data problems in HR and business scenarios — solved automatically." data-zh="HR 和业务场景最常见的脏数据问题——自动解决。">The most common dirty data problems in HR and business scenarios — solved automatically.</p>
+    <div class="section-header center fade-up">
+      <span class="section-label" data-en="🚀 All 22 Features" data-zh="🚀 全部22项功能">🚀 All 22 Features</span>
+      <h2 class="section-title" data-en="Complete Feature List 📋" data-zh="完整功能清单 📋">Complete Feature List 📋</h2>
+      <p class="section-desc" data-en="Every tool you need, organized by category. Just describe what you want — the skill auto-routes." data-zh="你需要的每个工具，按类别组织。只需描述需求——Skill 自动路由。">Every tool you need, organized by category. Just describe what you want — the skill auto-routes.</p>
     </div>
-    <div class="features-grid">
-      <div class="feature-card fade-up">
-        <div class="feature-icon">🗑️</div>
-        <h3 data-en="Empty Rows & Columns" data-zh="空行空列">Empty Rows & Columns</h3>
-        <p data-en="Remove empty rows and columns automatically." data-zh="自动删除空行和空列。">Remove empty rows and columns automatically.</p>
-      </div>
-      <div class="feature-card fade-up">
-        <div class="feature-icon">✂️</div>
-        <h3 data-en="Trim Whitespace" data-zh="去除空格">Trim Whitespace</h3>
-        <p data-en="Remove leading and trailing spaces from all text." data-zh="去除所有文本的首尾空格。">Remove leading and trailing spaces from all text.</p>
-      </div>
-      <div class="feature-card fade-up">
-        <div class="feature-icon">📱</div>
-        <h3 data-en="Phone Format" data-zh="手机号格式">Phone Format</h3>
-        <p data-en="Standardize phone numbers to 11-digit format." data-zh="手机号统一为 11 位格式。">Standardize phone numbers to 11-digit format.</p>
-      </div>
-      <div class="feature-card fade-up">
-        <div class="feature-icon">📅</div>
-        <h3 data-en="Date Unification" data-zh="日期统一">Date Unification</h3>
-        <p data-en="Unify all date formats to YYYY-MM-DD." data-zh="日期统一为 YYYY-MM-DD。">Unify all date formats to YYYY-MM-DD.</p>
-      </div>
-      <div class="feature-card fade-up">
-        <div class="feature-icon">💰</div>
-        <h3 data-en="Currency Format" data-zh="金额格式">Currency Format</h3>
-        <p data-en="Standardize currency and amount formats." data-zh="金额格式标准化。">Standardize currency and amount formats.</p>
-      </div>
-      <div class="feature-card fade-up">
-        <div class="feature-icon">🪪</div>
-        <h3 data-en="ID Validation" data-zh="身份证校验">ID Validation</h3>
-        <p data-en="Validate ID card number format." data-zh="身份证号格式校验。">Validate ID card number format.</p>
-      </div>
-      <div class="feature-card fade-up">
-        <div class="feature-icon">📧</div>
-        <h3 data-en="Email Validation" data-zh="邮箱校验">Email Validation</h3>
-        <p data-en="Check email format and flag invalid entries." data-zh="邮箱格式检查，标记无效项。">Check email format and flag invalid entries.</p>
-      </div>
-      <div class="feature-card fade-up">
-        <div class="feature-icon">🏷️</div>
-        <h3 data-en="Duplicate Flag" data-zh="重复标记">Duplicate Flag</h3>
-        <p data-en="Flag duplicate records for review." data-zh="标记重复记录供审查。">Flag duplicate records for review.</p>
-      </div>
+    <div class="feature-table-wrapper fade-up">
+      <table class="feature-table">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th data-en="Feature" data-zh="功能">Feature</th>
+            <th data-en="Description" data-zh="说明">Description</th>
+            <th data-en="Trigger Example" data-zh="触发示例">Trigger Example</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>1</td><td>📋 <span data-en="Smart Preview" data-zh="智能预览">Smart Preview</span></td><td data-en="Sheets, columns, rows, data types" data-zh="Sheet、列名、行数、数据类型">Sheets, columns, rows, data types</td><td data-en='"Show me this Excel"' data-zh='"看看这个Excel"'>"Show me this Excel"</td></tr>
+          <tr><td>2</td><td>📖 <span data-en="Read" data-zh="读取">Read</span></td><td data-en="Precise read by sheet/column/range" data-zh="按Sheet/列/行范围精确读取">Precise read by sheet/column/range</td><td data-en='"Read columns A-D from Sheet2"' data-zh='"读取Sheet2的A~D列"'>"Read columns A-D from Sheet2"</td></tr>
+          <tr><td>3</td><td>✏️ <span data-en="Write & Create" data-zh="写入/创建">Write & Create</span></td><td data-en="Write data to new Excel file" data-zh="数据写入新Excel">Write data to new Excel file</td><td data-en='"Generate an Excel from this data"' data-zh='"把这份数据生成Excel"'>"Generate an Excel from this data"</td></tr>
+          <tr><td>4</td><td>🔄 <span data-en="Format Convert" data-zh="格式互转">Format Convert</span></td><td data-en="xlsx ↔ csv ↔ json ↔ tsv" data-zh="xlsx ↔ csv ↔ json ↔ tsv">xlsx ↔ csv ↔ json ↔ tsv</td><td data-en='"Convert CSV to xlsx"' data-zh='"把CSV转成xlsx"'>"Convert CSV to xlsx"</td></tr>
+          <tr><td>5</td><td>📎 <span data-en="Merge" data-zh="合并">Merge</span></td><td data-en="Combine multiple files/sheets" data-zh="多文件/多Sheet合并">Combine multiple files/sheets</td><td data-en='"Merge these 5 monthly reports"' data-zh='"合并这5个月报"'>"Merge these 5 monthly reports"</td></tr>
+          <tr><td>6</td><td>✂️ <span data-en="Split" data-zh="拆分">Split</span></td><td data-en="Split by sheet into separate files" data-zh="按Sheet拆分为独立文件">Split by sheet into separate files</td><td data-en='"Split by sheet"' data-zh='"按Sheet拆分"'>"Split by sheet"</td></tr>
+          <tr><td>7</td><td>✂️ <span data-en="Split by Column" data-zh="按列值拆分">Split by Column</span></td><td data-en="Split by a column's values" data-zh="按指定列的值分组拆分">Split by a column's values</td><td data-en='"Split by department"' data-zh='"按部门拆分"'>"Split by department"</td></tr>
+          <tr><td>8</td><td>🔗 <span data-en="VLOOKUP" data-zh="VLOOKUP">VLOOKUP</span></td><td data-en="Cross-table join" data-zh="跨表关联匹配">Cross-table join</td><td data-en='"Join by employee ID"' data-zh='"按工号关联"'>"Join by employee ID"</td></tr>
+          <tr><td>9</td><td>🧹 <span data-en="Dedup" data-zh="去重">Dedup</span></td><td data-en="Deduplicate by specified columns" data-zh="按指定列去重">Deduplicate by specified columns</td><td data-en='"Dedup by name + phone"' data-zh='"按姓名+手机号去重"'>"Dedup by name + phone"</td></tr>
+          <tr><td>10</td><td>🧽 <span data-en="Data Cleaning" data-zh="数据清洗">Data Cleaning</span></td><td data-en="Empty rows, format standardization" data-zh="空行清理、格式统一">Empty rows, format standardization</td><td data-en='"Clean dirty data"' data-zh='"清洗脏数据"'>"Clean dirty data"</td></tr>
+          <tr><td>11</td><td>📄 <span data-en="Template Fill" data-zh="模板填充">Template Fill</span></td><td data-en="Batch generate from template" data-zh="数据+模板批量生成">Batch generate from template</td><td data-en='"Batch generate offer letters"' data-zh='"批量生成offer"'>"Batch generate offer letters"</td></tr>
+          <tr><td>12</td><td>✅ <span data-en="Validation" data-zh="数据校验">Validation</span></td><td data-en="Email/ID/phone format check" data-zh="邮箱/工号/身份证格式校验">Email/ID/phone format check</td><td data-en='"Check which emails are invalid"' data-zh='"检查哪些邮箱无效"'>"Check which emails are invalid"</td></tr>
+          <tr><td>13</td><td>🎨 <span data-en="Conditional Format" data-zh="条件格式">Conditional Format</span></td><td data-en="Auto-color by rules" data-zh="按规则自动标色">Auto-color by rules</td><td data-en='"Red below 60, green above 90"' data-zh='"低于60标红，高于90标绿"'>"Red below 60, green above 90"</td></tr>
+          <tr><td>14</td><td>💅 <span data-en="Styling" data-zh="样式排版">Styling</span></td><td data-en="Header beautification, auto width" data-zh="表头美化、列宽自适应">Header beautification, auto width</td><td data-en='"Bold header with background"' data-zh='"表头加粗加背景色"'>"Bold header with background"</td></tr>
+          <tr><td>15</td><td>📐 <span data-en="Formulas" data-zh="函数公式">Formulas</span></td><td data-en="Auto-insert Excel formulas" data-zh="自动插入Excel公式">Auto-insert Excel formulas</td><td data-en='"Add SUM in column E"' data-zh='"在E列加SUM公式"'>"Add SUM in column E"</td></tr>
+          <tr><td>16</td><td>📊 <span data-en="Charts" data-zh="图表">Charts</span></td><td data-en="Bar/line/pie/combo charts" data-zh="柱状图/折线图/饼图/组合图">Bar/line/pie/combo charts</td><td data-en='"Generate a sales bar chart"' data-zh='"生成销售柱状图"'>"Generate a sales bar chart"</td></tr>
+          <tr><td>17</td><td>📈 <span data-en="Pivot Table" data-zh="数据透视表">Pivot Table</span></td><td data-en="Cross-tabulation analysis" data-zh="交叉汇总分析">Cross-tabulation analysis</td><td data-en='"Summarize sales by dept and month"' data-zh='"按部门和月份汇总销售额"'>"Summarize sales by dept and month"</td></tr>
+          <tr><td>18</td><td>🔬 <span data-en="Data Analysis" data-zh="数据分析">Data Analysis</span></td><td data-en="Statistical summary: mean/median" data-zh="统计摘要：均值/中位数">Statistical summary: mean/median</td><td data-en='"Give me a statistical summary"' data-zh='"给我统计摘要"'>"Give me a statistical summary"</td></tr>
+          <tr><td>19</td><td>🔍 <span data-en="Diff" data-zh="差异对比">Diff</span></td><td data-en="Row-by-row file comparison" data-zh="两版文件逐行比对">Row-by-row file comparison</td><td data-en='"Compare two versions of the roster"' data-zh='"对比两版花名册"'>"Compare two versions of the roster"</td></tr>
+          <tr><td>20</td><td>🖼️ <span data-en="Image Insert" data-zh="图片插入">Image Insert</span></td><td data-en="Batch insert images to rows" data-zh="批量插入图片到对应行">Batch insert images to rows</td><td data-en='"Insert employee photos"' data-zh='"插入员工照片"'>"Insert employee photos"</td></tr>
+          <tr><td>21</td><td>🔒 <span data-en="Password Protect" data-zh="密码保护">Password Protect</span></td><td data-en="File encrypt/decrypt" data-zh="文件加密/解密">File encrypt/decrypt</td><td data-en='"Password-protect the salary table"' data-zh='"给薪酬表加密码"'>"Password-protect the salary table"</td></tr>
+          <tr><td>22</td><td>⚡ <span data-en="Large File" data-zh="大文件">Large File</span></td><td data-en="100K+ rows auto-streaming" data-zh="10万+行自动流式处理">100K+ rows auto-streaming</td><td data-en="Auto-triggered" data-zh="自动触发">Auto-triggered</td></tr>
+        </tbody>
+      </table>
     </div>
   </div>
 </section>
@@ -282,53 +274,6 @@
   </div>
 </section>
 
-<!-- All 22 Features -->
-<section id="all-features" style="background:var(--bg-warm);">
-  <div class="container">
-    <div class="section-header center fade-up">
-      <span class="section-label" data-en="🚀 All 22 Features" data-zh="🚀 全部22项功能">🚀 All 22 Features</span>
-      <h2 class="section-title" data-en="Complete Feature List 📋" data-zh="完整功能清单 📋">Complete Feature List 📋</h2>
-      <p class="section-desc" data-en="Every tool you need, organized by category. Just describe what you want — the skill auto-routes." data-zh="你需要的每个工具，按类别组织。只需描述需求——Skill 自动路由。">Every tool you need, organized by category. Just describe what you want — the skill auto-routes.</p>
-    </div>
-    <div class="feature-table-wrapper fade-up">
-      <table class="feature-table">
-        <thead>
-          <tr>
-            <th>#</th>
-            <th data-en="Feature" data-zh="功能">Feature</th>
-            <th data-en="Description" data-zh="说明">Description</th>
-            <th data-en="Trigger Example" data-zh="触发示例">Trigger Example</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr><td>1</td><td>📋 <span data-en="Smart Preview" data-zh="智能预览">Smart Preview</span></td><td data-en="Sheets, columns, rows, data types" data-zh="Sheet、列名、行数、数据类型">Sheets, columns, rows, data types</td><td>"Show me this Excel"</td></tr>
-          <tr><td>2</td><td>📖 <span data-en="Read" data-zh="读取">Read</span></td><td data-en="Precise read by sheet/column/range" data-zh="按Sheet/列/行范围精确读取">Precise read by sheet/column/range</td><td>"Read columns A-D from Sheet2"</td></tr>
-          <tr><td>3</td><td>✏️ <span data-en="Write & Create" data-zh="写入/创建">Write & Create</span></td><td data-en="Write data to new Excel file" data-zh="数据写入新Excel">Write data to new Excel file</td><td>"Generate an Excel from this data"</td></tr>
-          <tr><td>4</td><td>🔄 <span data-en="Format Convert" data-zh="格式互转">Format Convert</span></td><td data-en="xlsx ↔ csv ↔ json ↔ tsv" data-zh="xlsx ↔ csv ↔ json ↔ tsv">xlsx ↔ csv ↔ json ↔ tsv</td><td>"Convert CSV to xlsx"</td></tr>
-          <tr><td>5</td><td>📎 <span data-en="Merge" data-zh="合并">Merge</span></td><td data-en="Combine multiple files/sheets" data-zh="多文件/多Sheet合并">Combine multiple files/sheets</td><td>"Merge these 5 monthly reports"</td></tr>
-          <tr><td>6</td><td>✂️ <span data-en="Split" data-zh="拆分">Split</span></td><td data-en="Split by sheet into separate files" data-zh="按Sheet拆分为独立文件">Split by sheet into separate files</td><td>"Split by sheet"</td></tr>
-          <tr><td>7</td><td>✂️ <span data-en="Split by Column" data-zh="按列值拆分">Split by Column</span></td><td data-en="Split by a column's values" data-zh="按指定列的值分组拆分">Split by a column's values</td><td>"Split by department"</td></tr>
-          <tr><td>8</td><td>🔗 <span data-en="VLOOKUP" data-zh="VLOOKUP">VLOOKUP</span></td><td data-en="Cross-table join" data-zh="跨表关联匹配">Cross-table join</td><td>"Join by employee ID"</td></tr>
-          <tr><td>9</td><td>🧹 <span data-en="Dedup" data-zh="去重">Dedup</span></td><td data-en="Deduplicate by specified columns" data-zh="按指定列去重">Deduplicate by specified columns</td><td>"Dedup by name + phone"</td></tr>
-          <tr><td>10</td><td>🧽 <span data-en="Data Cleaning" data-zh="数据清洗">Data Cleaning</span></td><td data-en="Empty rows, format standardization" data-zh="空行清理、格式统一">Empty rows, format standardization</td><td>"Clean dirty data"</td></tr>
-          <tr><td>11</td><td>📄 <span data-en="Template Fill" data-zh="模板填充">Template Fill</span></td><td data-en="Batch generate from template" data-zh="数据+模板批量生成">Batch generate from template</td><td>"Batch generate offer letters"</td></tr>
-          <tr><td>12</td><td>✅ <span data-en="Validation" data-zh="数据校验">Validation</span></td><td data-en="Email/ID/phone format check" data-zh="邮箱/工号/身份证格式校验">Email/ID/phone format check</td><td>"Check which emails are invalid"</td></tr>
-          <tr><td>13</td><td>🎨 <span data-en="Conditional Format" data-zh="条件格式">Conditional Format</span></td><td data-en="Auto-color by rules" data-zh="按规则自动标色">Auto-color by rules</td><td>"Red below 60, green above 90"</td></tr>
-          <tr><td>14</td><td>💅 <span data-en="Styling" data-zh="样式排版">Styling</span></td><td data-en="Header beautification, auto width" data-zh="表头美化、列宽自适应">Header beautification, auto width</td><td>"Bold header with background"</td></tr>
-          <tr><td>15</td><td>📐 <span data-en="Formulas" data-zh="函数公式">Formulas</span></td><td data-en="Auto-insert Excel formulas" data-zh="自动插入Excel公式">Auto-insert Excel formulas</td><td>"Add SUM in column E"</td></tr>
-          <tr><td>16</td><td>📊 <span data-en="Charts" data-zh="图表">Charts</span></td><td data-en="Bar/line/pie/combo charts" data-zh="柱状图/折线图/饼图/组合图">Bar/line/pie/combo charts</td><td>"Generate a sales bar chart"</td></tr>
-          <tr><td>17</td><td>📈 <span data-en="Pivot Table" data-zh="数据透视表">Pivot Table</span></td><td data-en="Cross-tabulation analysis" data-zh="交叉汇总分析">Cross-tabulation analysis</td><td>"Summarize sales by dept and month"</td></tr>
-          <tr><td>18</td><td>🔬 <span data-en="Data Analysis" data-zh="数据分析">Data Analysis</span></td><td data-en="Statistical summary: mean/median" data-zh="统计摘要：均值/中位数">Statistical summary: mean/median</td><td>"Give me a statistical summary"</td></tr>
-          <tr><td>19</td><td>🔍 <span data-en="Diff" data-zh="差异对比">Diff</span></td><td data-en="Row-by-row file comparison" data-zh="两版文件逐行比对">Row-by-row file comparison</td><td>"Compare two versions of the roster"</td></tr>
-          <tr><td>20</td><td>🖼️ <span data-en="Image Insert" data-zh="图片插入">Image Insert</span></td><td data-en="Batch insert images to rows" data-zh="批量插入图片到对应行">Batch insert images to rows</td><td>"Insert employee photos"</td></tr>
-          <tr><td>21</td><td>🔒 <span data-en="Password Protect" data-zh="密码保护">Password Protect</span></td><td data-en="File encrypt/decrypt" data-zh="文件加密/解密">File encrypt/decrypt</td><td>"Password-protect the salary table"</td></tr>
-          <tr><td>22</td><td>⚡ <span data-en="Large File" data-zh="大文件">Large File</span></td><td data-en="100K+ rows auto-streaming" data-zh="10万+行自动流式处理">100K+ rows auto-streaming</td><td data-en="Auto-triggered" data-zh="自动触发">Auto-triggered</td></tr>
-        </tbody>
-      </table>
-    </div>
-  </div>
-</section>
-
 <!-- CTA -->
 <section class="cta-section">
   <div class="container">
@@ -355,7 +300,6 @@
       💡 <a href="https://mp.weixin.qq.com/s/v1JSZvlN5fvbOOHvkvXEtA" target="_blank">微信公众号</a> /
       <a href="https://xhslink.com/m/ESxtgUNMdl" target="_blank">小红书</a>：muippt
     </p>
-    <p class="footer-copy" data-en="MIT License" data-zh="MIT 协议">MIT License</p>
   </div>
 </footer>
 
@@ -370,7 +314,6 @@
       if(text){
         if(el.tagName==='INPUT'||el.tagName==='TEXTAREA'){el.value=text}
         else{
-          // Handle HTML in data attributes
           if(text.includes('<')){el.innerHTML=text}
           else{el.textContent=text}
         }
