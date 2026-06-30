@@ -166,10 +166,10 @@ HR 和业务场景最常见的脏数据问题，一条命令搞定：
 
 ```bash
 # 解压到 OpenClaw skills 目录
-unzip mu-excel-toolbox.zip -d ~/.openclaw/skills/
+unzip mu-excel-toolbox.zip -d ./mu-excel-toolbox
 
 # 依赖会在首次运行时自动安装，也可手动安装
-pip install -r ~/.openclaw/skills/mu-excel-toolbox/scripts/requirements.txt
+pip install -r ./mu-excel-toolbox/scripts/requirements.txt
 ```
 
 **第二步：开始使用**

@@ -166,10 +166,10 @@ Sensitive files like salary tables and performance data — one command to encry
 
 ```bash
 # Unzip to your agent's skills directory
-unzip mu-excel-toolbox.zip -d ~/.openclaw/skills/
+unzip mu-excel-toolbox.zip -d ./mu-excel-toolbox
 
 # Dependencies auto-install on first run, or install manually
-pip install -r ~/.openclaw/skills/mu-excel-toolbox/scripts/requirements.txt
+pip install -r ./mu-excel-toolbox/scripts/requirements.txt
 ```
 
 **Step 2: Start Using**
