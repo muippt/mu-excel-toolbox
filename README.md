@@ -220,6 +220,4 @@ If this project helps you, please give it a ⭐!
 
 [MIT](LICENSE) © 2026 木先生iPPT
 
-Built with openpyxl · pandas · xlsxwriter · xlrd · msoffcrypto-tool · numpy · tabulate.
-
 > Note: Much of this project was co-created with AI assistance. If you believe your work has been used without proper attribution, please open an issue.
