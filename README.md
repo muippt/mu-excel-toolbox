@@ -150,7 +150,7 @@ Sensitive files like salary tables and performance data — one command to encry
 
 | Item | Description |
 |------|-------------|
-| Runtime | OpenClaw framework (native support, compatible with all OpenClaw deployments) |
+| Runtime | Any AI agent framework that supports Skills/prompts (e.g. Claude Code, Cursor, Windsurf) |
 | Python | 3.9+ |
 | Core Dependencies | openpyxl / pandas / xlsxwriter / xlrd / msoffcrypto-tool |
 | Input Formats | .xlsx / .xls / .csv / .tsv / .json |

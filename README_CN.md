@@ -150,7 +150,7 @@ HR 和业务场景最常见的脏数据问题，一条命令搞定：
 
 | 项目 | 说明 |
 |------|------|
-| 运行环境 | OpenClaw 框架（原生支持，兼容所有 OpenClaw 部署方式） |
+| 运行环境 | 任意支持 Skills/prompts 的 AI Agent 框架（如 Claude Code、Cursor、Windsurf） |
 | Python 版本 | 3.9+ |
 | 核心依赖 | openpyxl / pandas / xlsxwriter / xlrd / msoffcrypto-tool |
 | 输入格式 | .xlsx / .xls / .csv / .tsv / .json |
@@ -165,7 +165,7 @@ HR 和业务场景最常见的脏数据问题，一条命令搞定：
 **第一步：安装**
 
 ```bash
-# 解压到 OpenClaw skills 目录
+# 解压到你的 Agent 的 skills 目录
 unzip mu-excel-toolbox.zip -d ./mu-excel-toolbox
 
 # 依赖会在首次运行时自动安装，也可手动安装
