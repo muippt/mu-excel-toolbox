@@ -294,13 +294,13 @@
       <a href="https://github.com/mupoet/mu-excel-toolbox/releases" target="_blank" data-en="Releases" data-zh="发布版本">Releases</a>
       <a href="https://github.com/mupoet/mu-excel-toolbox/issues" target="_blank" data-en="Issues" data-zh="问题反馈">Issues</a>
     </div>
-    <p class="footer-copy">
-      ©️ <a href="https://github.com/mupoet" target="_blank">木先生iPPT</a> ·
-      📚 作品 <a href="https://item.m.jd.com/product/14547345.html" target="_blank">《图解团队管理》</a> ·
-      💡 <a href="https://mp.weixin.qq.com/s/v1JSZvlN5fvbOOHvkvXEtA" target="_blank">微信公众号</a> /
-      <a href="https://xhslink.com/m/ESxtgUNMdl" target="_blank">小红书</a>：muippt
-    </p>
-  </div>
+<div class="footer-badges" style="display:flex;justify-content:center;gap:8px;flex-wrap:wrap;margin-top:16px">
+<a href="https://mp.weixin.qq.com/s/v1JSZvlN5fvbOOHvkvXEtA" target="_blank"><img data-en-src="https://img.shields.io/badge/muippt-07C160?logo=wechat&logoColor=white" data-zh-src="https://img.shields.io/badge/木先生iPPT-07C160?logo=wechat&logoColor=white" alt="WeChat" height="20"></a>
+<a href="https://xhslink.com/m/ESxtgUNMdl" target="_blank"><img data-en-src="https://img.shields.io/badge/muippt-FF2442?logo=xiaohongshu&logoColor=white" data-zh-src="https://img.shields.io/badge/木先生iPPT-FF2442?logo=xiaohongshu&logoColor=white" alt="Xiaohongshu" height="20"></a>
+<a href="https://item.m.jd.com/product/14547345.html" target="_blank"><img data-en-src="https://img.shields.io/badge/Book-Visual%20Team%20Management-BBDDE5?logo=bookstack&logoColor=white" data-zh-src="https://img.shields.io/badge/著作-《图解团队管理》-BBDDE5?logo=bookstack&logoColor=white" alt="Book" height="20"></a>
+<a href="https://github.com/mupoet" target="_blank"><img src="https://img.shields.io/badge/mupoet-181717?logo=github&logoColor=white" alt="GitHub" height="20"></a>
+</div>
+</div>
 </footer>
 
 <script>
@@ -309,25 +309,29 @@
   let currentLang='en';
   function setLang(lang){
     currentLang=lang;
-    document.querySelectorAll('[data-en]').forEach(el=>{
-      const text=el.getAttribute('data-'+lang);
-      if(text){
-        if(el.tagName==='INPUT'||el.tagName==='TEXTAREA'){el.value=text}
-        else{
-          if(text.includes('<')){el.innerHTML=text}
-          else{el.textContent=text}
-        }
-      }
-    });
-    document.querySelectorAll('.lang-switch span').forEach(s=>s.classList.toggle('active',s.dataset.lang===lang));
+document.querySelectorAll('[data-en]').forEach(el=>{
+const text=el.getAttribute('data-'+lang);
+if(text){
+if(el.tagName==='INPUT'||el.tagName==='TEXTAREA'){el.value=text}
+else{
+if(text.includes('<')){el.innerHTML=text}
+else{el.textContent=text}
+}
+}
+});
+document.querySelectorAll('img[data-'+lang+'-src]').forEach(img=>{
+const s=img.getAttribute('data-'+lang+'-src');if(s)img.src=s;
+});
+document.querySelectorAll('.lang-switch span').forEach(s=>s.classList.toggle('active',s.dataset.lang===lang));
     document.documentElement.lang=lang==='zh'?'zh-CN':'en';
     localStorage.setItem('excel-lang',lang);
   }
   langSwitch.addEventListener('click',e=>{
     if(e.target.dataset.lang){setLang(e.target.dataset.lang)}
   });
-  const savedLang=localStorage.getItem('excel-lang');
-  if(savedLang){setLang(savedLang)}
+const savedLang=localStorage.getItem('excel-lang');
+if(savedLang){setLang(savedLang)}
+else{var bl=(navigator.language||'').toLowerCase();setLang(bl.startsWith('zh')?'zh':'en')}
 
   // Scroll animation
   const observer=new IntersectionObserver(entries=>{
