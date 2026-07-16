@@ -194,8 +194,8 @@ Just tell your AI agent what you want to do — the skill auto-routes to the rig
 
 ## 🔒 Security & Privacy
 
-- 100% local execution, all data processing on your machine
-- Zero external API calls, no cloud service dependencies
+- All scripts execute locally — the Skill itself does not upload files to any third-party service
+- When used via an AI Agent, conversation content is processed by the LLM provider — please be mindful of sensitive data
 - No telemetry, no data collection, no usage tracking
 - Write operations auto-backup original files to prevent data loss
 - MIT License, free to modify and distribute
