@@ -220,4 +220,6 @@ If this project helps you, please give it a ⭐!
 
 [MIT](LICENSE) © 2026 木先生iPPT
 
+Thanks to [openpyxl](https://openpyxl.readthedocs.io/) · [pandas](https://pandas.pydata.org/) · [xlsxwriter](https://xlsxwriter.readthedocs.io/) · [xlrd](https://github.com/python-excel/xlrd) · [msoffcrypto-tool](https://github.com/nolze/msoffcrypto-tool) and other excellent open-source projects for providing the technical foundation.
+
 > Note: Much of this project was co-created with AI assistance. If you believe your work has been used without proper attribution, please open an issue.

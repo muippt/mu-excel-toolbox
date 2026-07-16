@@ -220,4 +220,6 @@ pip install -r ./mu-excel-toolbox/scripts/requirements.txt
 
 [MIT](LICENSE) © 2026 木先生iPPT
 
+感谢 [openpyxl](https://openpyxl.readthedocs.io/) · [pandas](https://pandas.pydata.org/) · [xlsxwriter](https://xlsxwriter.readthedocs.io/) · [xlrd](https://github.com/python-excel/xlrd) · [msoffcrypto-tool](https://github.com/nolze/msoffcrypto-tool) 等优秀开源项目提供的技术基建。
+
 > 声明：本项目大部分内容由 AI 辅助完成。如您认为您的作品被使用但未获得适当署名，请提交 Issue。
