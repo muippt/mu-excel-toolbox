@@ -15,9 +15,9 @@
 [![WeChat](https://img.shields.io/badge/muippt-07C160?logo=wechat&logoColor=white)](https://mp.weixin.qq.com/s/v1JSZvlN5fvbOOHvkvXEtA)
 [![Xiaohongshu](https://img.shields.io/badge/muippt-FF2442?logo=xiaohongshu&logoColor=white)](https://xhslink.com/m/ESxtgUNMdl)
 [![Book](https://img.shields.io/badge/Book-Visual%20Team%20Management-BBDDE5?logo=bookstack&logoColor=white)](https://item.m.jd.com/product/14547345.html)
-[![License](https://img.shields.io/github/license/MUIPPT/mu-excel-toolbox)](LICENSE)
-[![Version](https://img.shields.io/github/v/release/MUIPPT/mu-excel-toolbox)](https://github.com/MUIPPT/mu-excel-toolbox/releases)
-[![Stars](https://img.shields.io/github/stars/MUIPPT/mu-excel-toolbox)](https://github.com/MUIPPT/mu-excel-toolbox/stargazers)
+[![License](https://img.shields.io/github/license/muippt/mu-excel-toolbox)](LICENSE)
+[![Version](https://img.shields.io/github/v/release/muippt/mu-excel-toolbox)](https://github.com/muippt/mu-excel-toolbox/releases)
+[![Stars](https://img.shields.io/github/stars/muippt/mu-excel-toolbox)](https://github.com/muippt/mu-excel-toolbox/stargazers)
 
 ## 💡 Usage Examples
 
@@ -204,7 +204,7 @@ Just tell your AI agent what you want to do — the skill auto-routes to the rig
 
 If this project helps you, please give it a ⭐!
 
-[![Star History Chart](https://api.star-history.com/svg?repos=MUIPPT/mu-excel-toolbox&type=Date)](https://star-history.com/#MUIPPT/mu-excel-toolbox&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=muippt/mu-excel-toolbox&type=Date)](https://star-history.com/#muippt/mu-excel-toolbox&Date)
 
 > In one line: No code, no plugins — just tell your agent what you need and get Excel done.
 
