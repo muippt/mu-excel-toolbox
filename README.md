@@ -10,14 +10,14 @@
 
 > One skill for the entire Excel lifecycle — **read & write** · **merge & split** · **clean & validate** · **pivot & chart** · **template fill** · **encrypt & protect** — just describe what you need in natural language.
 
-**English** | [中文](README_CN.md) | [🌐 Landing Page](https://mupoet.github.io/mu-excel-toolbox/)
+**English** | [中文](README_CN.md) | [🌐 Landing Page](https://muippt.github.io/mu-excel-toolbox/)
 
 [![WeChat](https://img.shields.io/badge/muippt-07C160?logo=wechat&logoColor=white)](https://mp.weixin.qq.com/s/v1JSZvlN5fvbOOHvkvXEtA)
 [![Xiaohongshu](https://img.shields.io/badge/muippt-FF2442?logo=xiaohongshu&logoColor=white)](https://xhslink.com/m/ESxtgUNMdl)
 [![Book](https://img.shields.io/badge/Book-Visual%20Team%20Management-BBDDE5?logo=bookstack&logoColor=white)](https://item.m.jd.com/product/14547345.html)
-[![License](https://img.shields.io/github/license/mupoet/mu-excel-toolbox)](LICENSE)
-[![Version](https://img.shields.io/github/v/release/mupoet/mu-excel-toolbox)](https://github.com/mupoet/mu-excel-toolbox/releases)
-[![Stars](https://img.shields.io/github/stars/mupoet/mu-excel-toolbox)](https://github.com/mupoet/mu-excel-toolbox/stargazers)
+[![License](https://img.shields.io/github/license/MUIPPT/mu-excel-toolbox)](LICENSE)
+[![Version](https://img.shields.io/github/v/release/MUIPPT/mu-excel-toolbox)](https://github.com/MUIPPT/mu-excel-toolbox/releases)
+[![Stars](https://img.shields.io/github/stars/MUIPPT/mu-excel-toolbox)](https://github.com/MUIPPT/mu-excel-toolbox/stargazers)
 
 ## 💡 Usage Examples
 
@@ -204,7 +204,7 @@ Just tell your AI agent what you want to do — the skill auto-routes to the rig
 
 If this project helps you, please give it a ⭐!
 
-[![Star History Chart](https://api.star-history.com/svg?repos=mupoet/mu-excel-toolbox&type=Date)](https://star-history.com/#mupoet/mu-excel-toolbox&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=MUIPPT/mu-excel-toolbox&type=Date)](https://star-history.com/#MUIPPT/mu-excel-toolbox&Date)
 
 > In one line: No code, no plugins — just tell your agent what you need and get Excel done.
 

@@ -10,14 +10,14 @@
 
 > 一个 Skill 搞定 Excel 全生命周期——**读写创建** · **合并拆分** · **清洗校验** · **透视图表** · **模板填充** · **加密保护**，对 Agent 说人话就行。
 
-[English](README.md) | **中文** | [🌐 在线主页](https://mupoet.github.io/mu-excel-toolbox/)
+[English](README.md) | **中文** | [🌐 在线主页](https://muippt.github.io/mu-excel-toolbox/)
 
 [![微信公众号](https://img.shields.io/badge/muippt-07C160?logo=wechat&logoColor=white)](https://mp.weixin.qq.com/s/v1JSZvlN5fvbOOHvkvXEtA)
 [![小红书](https://img.shields.io/badge/muippt-FF2442?logo=xiaohongshu&logoColor=white)](https://xhslink.com/m/ESxtgUNMdl)
 [![书籍](https://img.shields.io/badge/书籍-图解团队管理-BBDDE5?logo=bookstack&logoColor=white)](https://item.m.jd.com/product/14547345.html)
-[![License](https://img.shields.io/github/license/mupoet/mu-excel-toolbox)](LICENSE)
-[![Version](https://img.shields.io/github/v/release/mupoet/mu-excel-toolbox)](https://github.com/mupoet/mu-excel-toolbox/releases)
-[![Stars](https://img.shields.io/github/stars/mupoet/mu-excel-toolbox)](https://github.com/mupoet/mu-excel-toolbox/stargazers)
+[![License](https://img.shields.io/github/license/MUIPPT/mu-excel-toolbox)](LICENSE)
+[![Version](https://img.shields.io/github/v/release/MUIPPT/mu-excel-toolbox)](https://github.com/MUIPPT/mu-excel-toolbox/releases)
+[![Stars](https://img.shields.io/github/stars/MUIPPT/mu-excel-toolbox)](https://github.com/MUIPPT/mu-excel-toolbox/stargazers)
 
 ## 💡 使用场景示例
 
@@ -204,7 +204,7 @@ pip install -r ./mu-excel-toolbox/scripts/requirements.txt
 
 如果这个项目对你有帮助，请给一个 ⭐！
 
-[![Star History Chart](https://api.star-history.com/svg?repos=mupoet/mu-excel-toolbox&type=Date)](https://star-history.com/#mupoet/mu-excel-toolbox&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=MUIPPT/mu-excel-toolbox&type=Date)](https://star-history.com/#MUIPPT/mu-excel-toolbox&Date)
 
 > 一句话总结：不用写代码、不用装插件，对 Agent 说人话就能搞定 Excel 的一切。
 
