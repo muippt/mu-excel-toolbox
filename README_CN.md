@@ -6,7 +6,7 @@
   </picture>
 </p>
 
-# 📊 mu-excel-toolbox ｜ Excel全能工具箱
+# 📊 mu-excel-toolbox · Excel全能工具箱
 
 > 一个 Skill 搞定 Excel 全生命周期——**读写创建** · **合并拆分** · **清洗校验** · **透视图表** · **模板填充** · **加密保护**，对 Agent 说人话就行。
 
