@@ -6,7 +6,7 @@
   </picture>
 </p>
 
-# mu-excel-toolbox
+# 📊 mu-excel-toolbox ｜ Excel全能工具箱
 
 > One skill for the entire Excel lifecycle — **read & write** · **merge & split** · **clean & validate** · **pivot & chart** · **template fill** · **encrypt & protect** — just describe what you need in natural language.
 
