@@ -126,7 +126,7 @@
         <span data-lang="en" class="active">EN</span>
         <span data-lang="zh">中文</span>
       </div>
-      <a href="https://github.com/muippt/mu-excel-toolbox" class="nav-cta" target="_blank">GitHub →</a>
+      <a href="https://muippt.github.io/mu-skill-hub/" class="nav-cta" target="_blank" data-en="Skill Hub →" data-zh="Skill合集 →">Skill合集 →</a>
     </div>
   </div>
 </nav>
@@ -291,13 +291,14 @@
   <div class="container">
     <div class="footer-links">
       <a href="https://github.com/muippt/mu-excel-toolbox" target="_blank">GitHub</a>
-      <a href="https://github.com/muippt/mu-excel-toolbox/releases" target="_blank" data-en="Releases" data-zh="发布版本">Releases</a>
+      <a href="https://muippt.github.io/mu-skill-hub/" target="_blank" data-en="Skill Hub" data-zh="Skill合集">Skill合集</a>
       <a href="https://github.com/muippt/mu-excel-toolbox/issues" target="_blank" data-en="Issues" data-zh="问题反馈">Issues</a>
     </div>
 <div class="footer-badges" style="display:flex;justify-content:center;gap:8px;flex-wrap:wrap;margin-top:16px">
-<a href="https://mp.weixin.qq.com/s/v1JSZvlN5fvbOOHvkvXEtA" target="_blank"><img data-en-src="https://img.shields.io/badge/muippt-07C160?logo=wechat&logoColor=white" data-zh-src="https://img.shields.io/badge/木先生iPPT-07C160?logo=wechat&logoColor=white" alt="WeChat" height="20"></a>
+<a href="https://mp.weixin.qq.com/s/YLtXENt_7WzO2DgJCFUtPA" target="_blank"><img data-en-src="https://img.shields.io/badge/muippt-07C160?logo=wechat&logoColor=white" data-zh-src="https://img.shields.io/badge/木先生iPPT-07C160?logo=wechat&logoColor=white" alt="WeChat" height="20"></a>
 <a href="https://xhslink.com/m/ESxtgUNMdl" target="_blank"><img data-en-src="https://img.shields.io/badge/muippt-FF2442?logo=xiaohongshu&logoColor=white" data-zh-src="https://img.shields.io/badge/木先生iPPT-FF2442?logo=xiaohongshu&logoColor=white" alt="Xiaohongshu" height="20"></a>
 <a href="https://item.m.jd.com/product/14547345.html" target="_blank"><img data-en-src="https://img.shields.io/badge/Book-Visual%20Team%20Management-BBDDE5?logo=bookstack&logoColor=white" data-zh-src="https://img.shields.io/badge/著作-《图解团队管理》-BBDDE5?logo=bookstack&logoColor=white" alt="Book" height="20"></a>
+<a href="https://muippt.github.io/mu-skill-hub/" target="_blank"><img data-en-src="https://img.shields.io/badge/mu--skillhub-9E95B7?logo=simpleicons&logoColor=white" data-zh-src="https://img.shields.io/badge/mu--skill集合-9E95B7?logo=simpleicons&logoColor=white" alt="mu-skillhub" height="20"></a>
 <a href="https://github.com/muippt" target="_blank"><img src="https://img.shields.io/badge/muippt-181717?logo=github&logoColor=white" alt="GitHub" height="20"></a>
 </div>
 </div>
@@ -329,9 +330,8 @@ document.querySelectorAll('.lang-switch span').forEach(s=>s.classList.toggle('ac
   langSwitch.addEventListener('click',e=>{
     if(e.target.dataset.lang){setLang(e.target.dataset.lang)}
   });
-const savedLang=localStorage.getItem('excel-lang');
-if(savedLang){setLang(savedLang)}
-else{var bl=(navigator.language||'').toLowerCase();setLang(bl.startsWith('zh')?'zh':'en')}
+  // Always default to Chinese on fresh page load; no restore from localStorage/browser language.
+  setLang('zh');
 
   // Scroll animation
   const observer=new IntersectionObserver(entries=>{
