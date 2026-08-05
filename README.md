@@ -201,11 +201,11 @@ Just tell your AI agent what you want to do — the skill auto-routes to the rig
 - Write operations auto-backup original files to prevent data loss
 - MIT License, free to modify and distribute
 
-## ⭐ Star History
+## ⭐ Star the Project
 
 If this project helps you, please give it a ⭐!
 
-[![Star History Chart](https://api.star-history.com/svg?repos=muippt/mu-excel-toolbox&type=Date)](https://star-history.com/#muippt/mu-excel-toolbox&Date)
+[![GitHub Stars](https://img.shields.io/github/stars/muippt/mu-excel-toolbox?style=flat&logo=github&label=Stars)](https://github.com/muippt/mu-excel-toolbox/stargazers)
 
 > In one line: No code, no plugins — just tell your agent what you need and get Excel done.
 

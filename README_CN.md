@@ -201,11 +201,11 @@ pip install -r ./mu-excel-toolbox/scripts/requirements.txt
 - 写入操作自动备份原文件，防止数据丢失
 - MIT License 开源友好，可自由修改和分发
 
-## ⭐ Star 趋势
+## ⭐ 给项目点 Star
 
 如果这个项目对你有帮助，请给一个 ⭐！
 
-[![Star History Chart](https://api.star-history.com/svg?repos=muippt/mu-excel-toolbox&type=Date)](https://star-history.com/#muippt/mu-excel-toolbox&Date)
+[![GitHub Stars](https://img.shields.io/github/stars/muippt/mu-excel-toolbox?style=flat&logo=github&label=Stars)](https://github.com/muippt/mu-excel-toolbox/stargazers)
 
 > 一句话总结：不用写代码、不用装插件，对 Agent 说人话就能搞定 Excel 的一切。
 
