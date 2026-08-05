@@ -205,7 +205,7 @@ Just tell your AI agent what you want to do — the skill auto-routes to the rig
 
 If this project helps you, please give it a ⭐!
 
-[![Star History Chart](assets/star-history.svg)](https://www.star-history.com/?repos=muippt%2Fmu-excel-toolbox&type=date)
+[![Star History Chart](assets/star-history.png)](https://www.star-history.com/?repos=muippt%2Fmu-excel-toolbox&type=date)
 
 > In one line: No code, no plugins — just tell your agent what you need and get Excel done.
 
